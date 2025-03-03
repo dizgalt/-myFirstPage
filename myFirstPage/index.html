@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Page</title>
+</head>
+<body>
+
+    <header class="header">
+        <img src="assets/avatar.png" alt="avatar" class="avatar">
+            <h1 class="headerTitle">Andrei Guk</h1>
+            <h2 class="headerSubtitle">Designer Engineer</h2>
+    </header>
+
+    <main>
+
+        <section class="skills">
+            <h3>
+                Skills
+            </h3>
+            <details class="dropDown">
+                <summary>
+                    Push me
+                </summary>
+                <ul>
+                    <li>HTML/CSS/JS</li>
+                    <li>Product Design</li>
+                    <li>UX/UI</li>
+                    <li>Design System</li>
+                </ul>
+            </details>
+        </section>
+
+        <article class="article">
+            <h4>About me</h4>
+            <p>
+                I am a designer engineer with a passion for creating beautiful and functional designs. I have experience in both UX and UI design, as well as front-end development. I am always looking for new challenges and opportunities to learn and grow.
+            </p>
+        </article>
+
+        <section class="myWorks">
+            <h4>My works</h4>
+            <div class="gallery">
+                <div class="imageWrapper">
+                  <img class="img" src="assets/1.png" alt="1">
+                </div>
+                <div class="imageWrapper">
+                  <img class="img" src="assets/2.png" alt="2">
+                </div>
+                <div class="imageWrapper">
+                  <img class="img" src="assets/3.png" alt="3">
+                </div>
+              </div>
+            </section>
+
+        <hr class="divider">
+
+        <section>
+            <iframe class="video" src="https://www.youtube.com/embed/f7DbA4_sK3I" title="Pan American - 360 Business 360 Bypass - 02 Code" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h4>Hobbies</h4>
+            <details class="dropDown">
+                <summary>Hobbies List</summary>
+                    <ul>
+                        <li>Reading</li>
+                        <li>Traveling</li>
+                        <li>Photography</li>
+                        <li>Cooking</li>
+                    </ul>
+            </details>
+        </section>
+
+        <hr class="divider">
+
+        <section class="edTable">
+            <table class="edTable">
+                <thead>
+                    <tr>
+                        <th>School / University </th>
+                        <th>Proffesion</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Design College</td>
+                        <td>UX/UI</td>
+                        <td>2010</td>
+                    </tr>
+                    <tr>
+                        <td>Design University</td>
+                        <td>Designer Engineer</td>
+                        <td>2018</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Sometimes the questions are complicated and the answers are simple.
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="https://youtu.be/f7DbA4_sK3I" method="get" class="form" target="_blank">
+                <fieldset class="formFieldset">
+                    <legend>
+                        <h4>
+                            Contact me
+                        </h4>
+                    </legend>
+                        <div class="block">
+                            <label class="label" for="firstNameID">First Name</label>
+                        <br>
+                        <input class="input" type="text" name="fisrtName" id="firstNameID" required placeholder="Enter Name">
+                        </div>
+                       
+                        <div class="block">
+                            <label class="label" for="lastNameID">Last Name</label>
+                        <br>
+                        <input class="input" type="text" name="lastName" id="lastNameID" required placeholder="Ennter Last">
+                        </div>
+
+                        <div class="block">
+                            <label class="label" for="emailID">Email</label>
+                        <br>
+                        <input class="input" type="email" name="lastName" id="emailID" required placeholder="Enter Email">
+                        </div>
+
+                        <div class="block">
+                        <label class="label" for="messageID">Message</label>
+                        <br>
+                        <textarea class="input" name="message" id="messageID" cols="30" rows="10" placeholder="Your message"></textarea>
+                        </div>
+                    </fieldset>
+                    
+                <button type="submit" class="formButton">
+                    Submit
+                </button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <address>
+            <a href="mailto:dizgalt@gmail.com" class="ref">My mail</a>
+            <br>
+            <a href="tel:+380123456789" class="ref">My phone</a>
+        </address>
+    </footer>
+</body>
+</html>
